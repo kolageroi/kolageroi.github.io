@@ -1,34 +1,4 @@
 <?php
-?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-
-    <link rel="stylesheet" href="main.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
-   
-    <title>Главная</title>
-</head>
-<body>
-    <div id="header_nav">
-<div id="nav_feedback">
-<a href="\feedback">Связь с нами</a>
-</div>
-<div id="nav">
-        <a class="borderright" href="">Главная</a>
-        <a href="/photos">Фото</a>
-</div>
-
-    </div>
-    <div id="content">
-    <div id="table">
-    <?php
     function sid64_2_32($steamid64) {
     $accountID = bcsub($steamid64, '76561197960265728');
     return 'STEAM_0:'.bcmod($accountID, '2').':'.bcdiv($accountID, 2);
@@ -62,14 +32,4 @@ $mg.="</table>";
 print($mg);
 
 ?>
-</div>
 
-
-
-
-    </div>
-    <div id="bottom_nav">
-        
-    </div>
-</body>
-</html>
