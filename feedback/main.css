@@ -1,0 +1,64 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+background: aliceblue;
+}
+#header_nav{
+height: 40px;
+width: 1200px;
+background: white; 
+margin: 20px auto;
+border-style: solid; /* Стиль линии вокруг параграфа */
+border-color: chartreuse;
+border-width: 5px;
+
+
+}
+#nav_feedback a{
+    font-family: 'Exo 2', Courier, monospace;
+    font-size: 20px;
+    float: right;
+    color: black;
+    border-style: groove;
+    border-width: 2px;
+    margin: 6px;
+}
+#nav_feedback a:hover{
+color: lightseagreen;
+}
+#nav{
+    font-family: 'Exo 2', Courier, monospace;
+    font-size: 20px;
+    color: back;
+    margin: 7px;
+    color: black;
+  
+}
+#nav a{
+padding: 5px;
+    color:black;
+}
+#content{
+    width: 1200px;
+    height: 1000px;
+    background: white;
+    margin: auto;
+    border-style: groove;
+    border-width: 1px;
+    font-family: 'Exo 2', Courier, monospace;
+    font-size: 20px;
+}
+#content p{
+color: black;
+width: 115px;
+height: 10px;
+margin: auto;
+font-size: 25px;
+
+}
+
