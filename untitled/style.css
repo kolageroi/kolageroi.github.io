@@ -1,0 +1,25 @@
+body{
+    background: #b6d4fe;
+
+}
+*{
+    text-decoration: none;
+}
+a{
+    color: #0c4128;
+    float: right;
+    padding: 20px;
+}
+p{
+
+}
+#buttons{
+    background: #e6dbb9;
+    width: 900px;
+    height: 50px;
+    margin: auto;
+
+
+
+}
+
