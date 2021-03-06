@@ -6,3 +6,4 @@ rostik.addEventListener('click', function (){
 
 
 
+

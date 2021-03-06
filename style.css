@@ -1,5 +1,6 @@
 *{
-    text-decoration: none
+    text-decoration: none;
+
 }
 .container{
     padding-top: 1px;
@@ -37,6 +38,7 @@
     text-align: center;
     color: white;
     -webkit-text-stroke: 0.2px black;
+
 }
 .bottomnav a{
     color: rgba(0,0,0,0);
@@ -45,3 +47,4 @@
     color: #bfe2e9;
     background: #3a7d87;
 }
+
